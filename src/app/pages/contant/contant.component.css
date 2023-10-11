@@ -1,0 +1,30 @@
+.container__contant {
+    /* definir a altura e largura da área de conteúdo. Ou seja, 
+    apenas daquilo que fica dentro da margin, border e padding. */
+    width: 100%; /*largura */
+    height: 100%; /*altura*/
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center; 
+    align-items: center;
+}
+
+.content__cover > img{
+    border: 5px solid grey;
+    border-radius: 5px;
+    width: 500px;
+    min-width: 500px ;
+    height: 300px;
+}
+
+.content__description{
+    margin-top: 15px;
+}
+
+.content__description > p{
+    color: rgb(171, 167, 167);
+}
